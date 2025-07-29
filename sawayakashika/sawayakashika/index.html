@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>さわやか歯科クリニック</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="さわやか歯科クリニック" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav-box">
+      <button type="button" id="nav-sp" class="nav-sp">
+        <span></span>
+      </button>
+      <nav class="hamburger sp-nav" id="hamburger">
+        <ul class="nav-common">
+          <a href="#"><li>当院について</li></a>
+          <a href="#"><li>診療科目</li></a>
+          <a href="#"><li>スタッフ紹介</li></a>
+          <a href="#"><li>ブログ</li></a>
+          <a href="#"><li>お問い合わせ</li></a>
+          <li>
+            <p>
+              診察時間<br />9:30-13:00/14:00-18:30<br /><br />
+              休診日<br />水曜/日曜/土曜の午後
+            </p>
+          </li>
+        </ul>
+      </nav>
+      <nav id="main-nav" class="main-nav nav-common container-xl">
+        <ul>
+          <a href="#"><li>当院について</li></a>
+          <a href="#"><li>診療科目</li></a>
+          <a href="#"><li>スタッフ紹介</li></a>
+          <a href="#"><li>ブログ</li></a>
+          <a href="#"><li>お問い合わせ</li></a>
+        </ul>
+      </nav>
+      <div class="sticky-box web-btn-a" id="btn-js">
+        <button id="closeBtn" class="close-btn web-btn">×</button>
+        <a href="#"
+          ><div class="web-btn web-right box-shadow">Web<br />予約</div></a
+        >
+      </div>
+      <header>
+        <div class="header-flex header-max">
+          <div>
+            <a href="index.html">
+              <img
+                src="img/logo.png"
+                class="header-logo"
+                alt="さわやか歯科クリニック"
+              />
+            </a>
+          </div>
+          <div class="header-box-right web-btn-a">
+            <a href="#" class="header-web web-btn box-shadow">Web予約</a>
+            <table class="table-schedule">
+              <tr>
+                <td class="table-header">診察時間</td>
+                <td>9:30-13:00/14:00-18:30</td>
+              </tr>
+              <tr>
+                <td class="table-header">休診日</td>
+                <td>水曜/日曜/土曜の午後</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </header>
+      <main>
+        <article>
+          <section>
+            <div class="fv-container">
+              <div class="slide-wrapper fv-img-pc">
+                <div id="slide" class="slide">
+                  <div>
+                    <img
+                      src="img/fv1.jpg"
+                      alt="治療室の写真"
+                      class="fv-img-pc-style"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="img/fv2.jpg"
+                      alt="院内の写真"
+                      class="fv-img-pc-style"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="img/fv3.jpg"
+                      alt="待合室の写真"
+                      class="fv-img-pc-style"
+                    />
+                  </div>
+                </div>
+                <span id="prev" class="prev"></span>
+                <span id="next" class="next"></span>
+                <ul class="indicator" id="indicator">
+                  <li class="list"></li>
+                  <li class="list"></li>
+                  <li class="list"></li>
+                </ul>
+              </div>
+              <div class="slide-wrapper fv-img-sp">
+                <div id="slideB" class="slide">
+                  <div>
+                    <img
+                      src="img/fv-m1.jpg"
+                      alt="治療室の写真"
+                      class="fv-img-sp-style"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="img/fv-m2.jpg"
+                      alt="院内の写真"
+                      class="fv-img-sp-style"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="img/fv-m3.jpg"
+                      alt="待合室の写真"
+                      class="fv-img-sp-style"
+                    />
+                  </div>
+                </div>
+                <span id="prev2" class="prev"></span>
+                <span id="next2" class="next"></span>
+                <ul class="indicator" id="indicator2">
+                  <li class="list2"></li>
+                  <li class="list2"></li>
+                  <li class="list2"></li>
+                </ul>
+              </div>
+              <div class="fv-copy">
+                <h1>
+                  小さなお子さまから<br class="sp-br" />ご年配の方まで<br />
+                  安心して通える歯科医院
+                </h1>
+              </div>
+              <div class="info-box">
+                <div class="info-box1"><h2>お知らせ</h2></div>
+                <div class="info-box2">
+                  <p>
+                    2025.7.11<br />さわやか歯科クリニックのホームページを開設しました！
+                  </p>
+                  <a href="#">&gt;</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section-concept">
+            <div class="title-l">
+              <h2 class="title-l-top">コンセプト</h2>
+              <p class="title-l-bottom">Concept</p>
+            </div>
+            <div class="container-m concept-container">
+              <div class="concept-box1">
+                <img src="img/familydental.png" alt="歯の家族" />
+              </div>
+              <div class="concept-box2">
+                <h3>家族みんなの歯科医院へ</h3>
+                <p class="bottom-margin-l">
+                  最新の設備とやさしい診療で家族みんなの健康な歯を守れるようサポートしていきます。
+                </p>
+                <h3>笑顔で通える歯科医院へ</h3>
+                <p>
+                  単に「治療をする」のではなく、患者さんの不安をやわらげ、笑顔で通えることを大切にしています。
+                </p>
+              </div>
+            </div>
+            <div class="container-l concept-container2">
+              <div class="concept-box3 box-shadow">
+                <img src="img/smilecouple.jpg" alt="笑顔の夫婦" />
+                <div class="concept-title">大切な歯を守るお手伝いを</div>
+              </div>
+              <div class="concept-box3 box-shadow">
+                <img src="img/smilefamily.jpg" alt="笑顔の親子" />
+                <div class="concept-title">安心して通えるクリニックへ</div>
+              </div>
+            </div>
+            <div class="link-btn-a text-center">
+              <a href="#" class="link-btn box-shadow">コンセプト詳細へ</a>
+            </div>
+          </section>
+          <section class="section-department">
+            <div class="title-l">
+              <h2 class="title-l-top">診療科目</h2>
+              <p class="title-l-bottom">Department</p>
+            </div>
+            <div class="container-m department-container">
+              <div class="department-box1">
+                <a href="#" class="box-shadow">
+                  <div class="department-box2">
+                    <img src="img/icon1.png" alt="一般歯科" />
+                    <h3 class="title-department">一般歯科</h3>
+                  </div></a
+                >
+                <a href="#" class="box-shadow">
+                  <div class="department-box2">
+                    <img src="img/icon2.png" alt="小児歯科" />
+                    <h3 class="title-department">小児歯科</h3>
+                  </div></a
+                >
+              </div>
+              <div class="department-box1">
+                <a href="#" class="box-shadow">
+                  <div class="department-box2">
+                    <img src="img/icon3.png" alt="口腔外科" />
+                    <h3 class="title-department">口腔外科</h3>
+                  </div></a
+                >
+                <a href="#" class="box-shadow">
+                  <div class="department-box2">
+                    <img src="img/icon4.png" alt="予防歯科" />
+                    <h3 class="title-department">予防歯科</h3>
+                  </div></a
+                >
+              </div>
+            </div>
+            <div class="link-btn-a text-center">
+              <a href="#" class="link-btn box-shadow">診療科目詳細へ</a>
+            </div>
+          </section>
+          <section class="section-information">
+            <div class="title-l">
+              <h2 class="title-l-top">ご案内</h2>
+              <p class="title-l-bottom">Information</p>
+            </div>
+            <div class="container-s">
+              <div class="information-container">
+                <div class="information-container2">
+                  <h3 class="title-m bottom-margin-m">診察時間</h3>
+                  <table class="week-schedule">
+                    <tr>
+                      <th>時間</th>
+                      <th>月</th>
+                      <th>火</th>
+                      <th>水</th>
+                      <th>木</th>
+                      <th>金</th>
+                      <th>土</th>
+                      <th>日</th>
+                    </tr>
+                    <tr>
+                      <td>午前</td>
+                      <td>●</td>
+                      <td>●</td>
+                      <td>×</td>
+                      <td>●</td>
+                      <td>●</td>
+                      <td>●</td>
+                      <td>×</td>
+                    </tr>
+                    <tr>
+                      <td>午前</td>
+                      <td>●</td>
+                      <td>●</td>
+                      <td>×</td>
+                      <td>●</td>
+                      <td>●</td>
+                      <td>×</td>
+                      <td>×</td>
+                    </tr>
+                  </table>
+                  <table class="info-p">
+                    <tr>
+                      <td>午前 9:30-13:00</td>
+                    </tr>
+                    <tr>
+                      <td>午後 14:00-18:30</td>
+                    </tr>
+                    <tr>
+                      <td>水・日休診</td>
+                    </tr>
+                    <tr>
+                      <td>土曜は午前のみ</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="information-container3">
+                  <div class="information-box">
+                    <h3 class="title-m bottom-margin-m">住所</h3>
+                    <p class="address bottom-margin-l">
+                      &#12306;105-0001<br />
+                      東京都港区虎ノ門１丁目３-１<br />
+                      さわやか歯科クリニック
+                    </p>
+                  </div>
+                  <div class="information-box">
+                    <h3 class="title-m bottom-margin-m">アクセス</h3>
+                    <p class="address bottom-margin-l">
+                      東京メトロ 虎ノ門駅より直結・徒歩１分<br />
+                      ※駐車場はないので、近隣のコインパーキングをご利用ください。
+                    </p>
+                    <div class="link-btn-a text-center">
+                      <a href="#" class="link-btn box-shadow">アクセス詳細へ</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="web-btn-a reservation-box">
+            <a href="#" class="information-web web-btn box-shadow"
+              >Webから予約</a
+            >
+          </div>
+          <section class="section-blog">
+            <div class="title-l">
+              <h2 class="title-l-top">豆知識ブログ</h2>
+              <p class="title-l-bottom">Trivia Blog</p>
+            </div>
+            <div class="container-m blog-container">
+              <div class="blog-box1 box-shadow">
+                <img src="img/blog2.jpg" alt="歯科治療のイメージ" />
+                <div class="blog-box2">
+                  <h3 class="title-s">
+                    定期歯科検診で健康な歯を守りましょう！
+                  </h3>
+                  <p>2025/7/12</p>
+                  <p>
+                    毎日の歯磨きだけでは、むし歯や歯周病を完全に防ぐことは難しいものです。定期的な歯科検診を受けることで、歯の健康を維持し、大きな治療が必要になる前にトラブルを防ぐことができます。今回......
+                  </p>
+                  <div class="link-btn-a text-right">
+                    <a href="#" class="link-btn-s">記事を読む</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-box1 box-shadow">
+                <img src="img/blog1.jpg" alt="デンタルケアのイメージ" />
+                <div class="blog-box2">
+                  <h3 class="title-s">
+                    正しい歯磨きのコツ！毎日のケアでむし歯・歯周病を防ごう
+                  </h3>
+                  <p>2025/6/12</p>
+                  <p>
+                    毎日しっかり歯を磨いているのに、むし歯や歯ぐきの腫れに悩んでいる方も多いのではないでしょうか。実は、歯磨きの仕方によって汚れの落ち方が大きく変わります。適切な歯磨きを行うことで......
+                  </p>
+                  <div class="link-btn-a text-right">
+                    <a href="#" class="link-btn-s">記事を読む</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="link-btn-a text-center">
+              <a href="#" class="link-btn box-shadow">ブログ一覧へ</a>
+            </div>
+          </section>
+          <section class="staff-contact">
+            <div class="container-m staff-contact-container">
+              <div class="staff-contact-box1">
+                <div class="staff-contact-box3">
+                  <img
+                    src="img/doctor.jpg"
+                    alt="院長の写真"
+                    class="staff-contact-img"
+                  />
+                </div>
+                <div class="staff-contact-box4">
+                  <h3 class="title-m bottom-margin-m">スタッフ紹介</h3>
+                  <p class="bottom-margin-m">
+                    院長からの挨拶と、当院で働くスタッフの紹介です。
+                  </p>
+                  <div class="link-btn-a text-center">
+                    <a href="#" class="link-btn box-shadow">スタッフ紹介へ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="staff-contact-box2">
+                <div class="staff-contact-box3">
+                  <img
+                    src="img/mailicon.png"
+                    alt="メールのアイコン"
+                    class="staff-contact-img"
+                  />
+                </div>
+                <div class="staff-contact-box4">
+                  <h3 class="title-m bottom-margin-m">お問い合わせ</h3>
+                  <p class="bottom-margin-m">
+                    フォームからクリニックにお問い合わせができます。
+                  </p>
+                  <div class="link-btn-a text-center">
+                    <a href="#" class="link-btn box-shadow">お問い合わせへ</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+      </main>
+      <footer>
+        <div class="footer-flex container-m">
+          <div class="footer-container">
+            <a href="index.html">
+              <img
+                src="img/logo.png"
+                class="footer-logo bottom-margin-l"
+                alt="さわやか歯科クリニック"
+              />
+            </a>
+            <table class="address">
+              <tr>
+                <td>&#12306;105-0001</td>
+              </tr>
+              <tr>
+                <td>東京都港区虎ノ門１丁目３-１</td>
+              </tr>
+              <tr>
+                <td>さわやか歯科クリニック</td>
+              </tr>
+            </table>
+          </div>
+          <div class="footer-container">
+            <table class="week-schedule">
+              <tr>
+                <th>時間</th>
+                <th>月</th>
+                <th>火</th>
+                <th>水</th>
+                <th>木</th>
+                <th>金</th>
+                <th>土</th>
+                <th>日</th>
+              </tr>
+              <tr>
+                <td>午前</td>
+                <td>●</td>
+                <td>●</td>
+                <td>×</td>
+                <td>●</td>
+                <td>●</td>
+                <td>●</td>
+                <td>×</td>
+              </tr>
+              <tr>
+                <td>午前</td>
+                <td>●</td>
+                <td>●</td>
+                <td>×</td>
+                <td>●</td>
+                <td>●</td>
+                <td>×</td>
+                <td>×</td>
+              </tr>
+            </table>
+            <table class="table-schedule">
+              <tr>
+                <td class="table-header">診察時間</td>
+                <td>9:30-13:00/14:00-18:30</td>
+              </tr>
+              <tr>
+                <td class="table-header">休診日</td>
+                <td>水曜/日曜/土曜の午後</td>
+              </tr>
+            </table>
+            <div class="web-btn-a">
+              <a href="#" class="information-web web-btn box-shadow"
+                >Webから予約</a
+              >
+            </div>
+          </div>
+          <div class="footer-container">
+            <nav class="footer-nav nav-common">
+              <ul>
+                <a href="#"><li>当院について</li></a>
+                <a href="#"><li>診療科目</li></a>
+                <a href="#"><li>スタッフ紹介</li></a>
+                <a href="#"><li>ブログ</li></a>
+                <a href="#"><li>お問い合わせ</li></a>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <p class="copyright text-center">
+          &copy;さわやか歯科クリニックall rights reserved.
+        </p>
+      </footer>
+      <script type="text/javascript" src="js/script.js"></script>
+    </div>
+  </body>
+</html>
